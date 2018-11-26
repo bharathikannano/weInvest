@@ -3,3 +3,28 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.cumsover {
+  padding: 0;
+  margin-right: 35px;
+  margin-top:10%;
+}
+.card-img-top{
+  max-height: 250px;
+}
+.margRight{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.margRight > .col-md-4 > button {
+margin-right: 4%;
+} 
+.inputFil{
+  width: 20%;
+}
+.material-icons{
+  color: red;
+}
+.valign{
+  vertical-align:baseline;
+}

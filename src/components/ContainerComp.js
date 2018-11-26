@@ -9,17 +9,19 @@ constructor(props) {
 }
 
  componentDidMount() {
-     console.log("componentDidMount");
    this.props.dispatch({ type: "API_CALL_REQUEST" });
   }
   render() {
-    //   const { currency } = this.props.data;
-    const { fetching, cData, onRequestcData, error } = this.props;
+    const {cData} = this.props;
       return(
         <React.Fragment>
+        <div className="container">
         <h1>Hello World</h1>
+        <div className="row">
        {cData ? cData.map((value, index) => <Cardcomponent key={index} dataSet={value.id} volatility={value.volatility} meanReturn={value.mean_return} currency={value.currency} minimum={value.minimum}/>) : <Cardcomponent/>}
-        </React.Fragment>
+       </div> 
+       </div>
+       </React.Fragment>
        );
     
     }

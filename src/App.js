@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./App.css";
-import {BrowserRouter as Router, Link, Redirect } from 'react-router-dom';
+import "./index.css";
+import {BrowserRouter as Router} from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import ContainerComp from "./components/ContainerComp";
 import Portfolio from "./components/Portfolio";
@@ -12,12 +12,7 @@ constructor(props) {
 
 }
 
-//  componentDidMount() {
-//    this.props.dispatch({ type: "API_CALL_REQUEST" });
-//   }
   render() {
-    // const { fetching, cData, onRequestcData, error } = this.props;
-
     return (
       <Router history={Router}>
       <div className="App">
