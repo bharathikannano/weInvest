@@ -5,7 +5,7 @@ export default class Cardcomponent extends Component {
 
 constructor(props) {
   super(props);
-  this.navBack = this.navBack.bind(this);
+  //this.navBack = this.navBack.bind(this);
   this.state ={
       redirect:false
   }
@@ -34,7 +34,7 @@ constructor(props) {
 
         </ul>
         <div className = "btn-group btn-block">
-         <button type = "button" className = "btn btn-danger btn-block" onClick={this.navBack.bind(this)}>Withdraw</button>
+         <button type = "button" className = "btn btn-danger btn-block" onClick={() => this.navBack()}>Withdraw</button>
         </div>
         </div>
         </div>

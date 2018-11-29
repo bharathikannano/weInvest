@@ -20,11 +20,18 @@ body {
 margin-right: 4%;
 } 
 .inputFil{
-  width: 20%;
+  width: 15%;
+  padding-left:15px;
+  margin: 0 5px;
 }
 .material-icons{
   color: red;
 }
 .valign{
   vertical-align:baseline;
+}
+.fas{
+  font-weight: 900;
+  font-size: 13px;
+  color: gray;
 }
